@@ -74,10 +74,6 @@ input::placeholder {
     color: #757575;
 }
 
-input:value {
-    
-} 
-
 .inputBtn {
     width: 142px;
     height: 48px;
@@ -88,10 +84,10 @@ input:value {
     font-size: 24px;
     line-height: 28px;
     color: #FFFFFF;
-    margin-bottom: 45px;
-    margin-left: auto;
-    margin-right: auto;
+    margin-right: 20px;
+    margin-bottom: 0;
     padding: 0 30px;
+    border: none;
 }
 
 p {
@@ -100,8 +96,10 @@ p {
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
-    line-height: 19px;
+    line-height: 48px;
     color: #838199;
+    margin-right: 20px;
+    margin-bottom: 0;
 }
 
 .back {
@@ -156,4 +154,12 @@ label {
     position: absolute;
     margin-left: 166px;
     bottom: 30px;
+}
+
+.google {
+    
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
 }
