@@ -1,6 +1,10 @@
 let newMovies = document.querySelector("#newMovies");
 let popularMovies = document.querySelector("#popularMovies");
 
+var data = JSON.parse (localStorage.getItem ('google'));
+console.log(typeof data);
+console.log(data);
+
 class Movie {
     constructor(photo, banner, link, title, name, uaName, description, uaDescription, country, uaCountry, genre, uaGenre, year, IMDb, studio, popular) {
         this.photo = photo;
@@ -30,7 +34,7 @@ class Movie {
             title: this.title,
             name: this.name,
             uaName: this.uaName,
-            description: this.description,
+            description: this.description, 
             uaDescription: this.uaDescription,
             country: this.country,
             uaCountry: this.uaCountry,
