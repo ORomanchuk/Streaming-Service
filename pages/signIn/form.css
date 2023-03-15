@@ -46,7 +46,7 @@ form {
     min-height: 440px;
     background-color: rgba(0, 0, 0, 0.6);
     border-radius: 23px;
-    padding: 110px 75px 66px 75px;
+    padding: 45px 75px 45px 75px;
     margin-left: auto;
     margin-right: auto;
 }
@@ -132,12 +132,14 @@ input[type="checkbox"] {
 }
 
 label {
+    display: block;
     font-style: normal;
     font-weight: 400;
-    font-size: 15px;
+    font-size: 14px;
     line-height: 18px;
     text-align: center;
     color: #8D8D8D;
+    margin-bottom: 10px;
 }
 
 .label a {
@@ -162,4 +164,31 @@ label {
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 20px;
+}
+
+@media (max-width: 600px) {
+    section {
+        width: 100%;
+        padding: 30px;
+    }
+
+    .form {
+        width: 100%;
+    }
+
+    form {
+        width: 100%;
+        min-height: min-content;
+        padding: 35px;
+    }
+
+    .google {
+        margin-top: 20px;
+    }
+
+    .back {
+        position: absolute;
+        margin-left: 100px;
+        bottom: 30px;
+    }
 }

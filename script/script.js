@@ -5,6 +5,13 @@ var data = JSON.parse (localStorage.getItem ('google'));
 console.log(typeof data);
 console.log(data);
 
+let mobileMenu = document.querySelector(".mobileMenu")
+let mobileMenuDiv = document.querySelector(".mobileMenuDiv")
+
+mobileMenu.addEventListener('click', function() {
+    mobileMenuDiv.classList.toggle("hidden");
+});
+
 class Movie {
     constructor(photo, banner, link, title, name, uaName, description, uaDescription, country, uaCountry, genre, uaGenre, year, IMDb, studio, popular) {
         this.photo = photo;

@@ -1,5 +1,13 @@
 let movies = document.querySelector(".listOfMovies");
 
+let mobileMenu = document.querySelector(".mobileMenu")
+let mobileMenuDiv = document.querySelector(".mobileMenuDiv")
+
+mobileMenu.addEventListener('click', function() {
+    mobileMenuDiv.classList.toggle("hidden");
+});
+
+
 class Movie {
     constructor(photo, banner, link, title, name, uaName, description, uaDescription, country, uaCountry, genre, uaGenre, year, IMDb, studio, popular) {
         this.photo = photo;
@@ -70,6 +78,11 @@ class Movie {
         movies.append(this.li);
     
         button.addEventListener('click', function() {
+            localStorage.clear('data');
+            localStorage.setItem('data', JSON.stringify(object));
+            window.location.href = '../movie/index.html';
+        });
+        this.li.addEventListener('click', function() {
             localStorage.clear('data');
             localStorage.setItem('data', JSON.stringify(object));
             window.location.href = '../movie/index.html';

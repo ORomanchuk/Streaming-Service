@@ -1,7 +1,13 @@
 var data = JSON.parse (localStorage.getItem ('data'));
 console.log(typeof data);
 console.log(data);
-// document.getElementById('element-to-update').textContent = data.name;
+
+let mobileMenu = document.querySelector(".mobileMenu")
+let mobileMenuDiv = document.querySelector(".mobileMenuDiv")
+
+mobileMenu.addEventListener('click', function() {
+    mobileMenuDiv.classList.toggle("hidden");
+});
 
 let bannerImg = document.querySelector(".bannerImg")
 let filmName = document.querySelector(".filmName")
