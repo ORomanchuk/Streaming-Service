@@ -1,4 +1,4 @@
-let movie1 = new Movie (
+let movie1 = new Movie(
     "./img/movies/m1.jpg",
     "./img/movies/b1.png",
     "https://www.youtube.com/embed/t3D3ewle7XY",
@@ -16,7 +16,7 @@ let movie1 = new Movie (
     "HBO"
 );
 movie1.createFilm();
-let movie2 = new Movie (
+let movie2 = new Movie(
     "./img/movies/m2.jpg",
     "./img/movies/b2.png",
     "https://www.youtube.com/embed/gartMjonTXc",
@@ -34,7 +34,7 @@ let movie2 = new Movie (
     "Walt Disney Pictures"
 );
 movie2.createFilm();
-let movie3 = new Movie (
+let movie3 = new Movie(
     "./img/movies/m3.jpg",
     "./img/movies/b3.png",
     "https://www.youtube.com/embed/H6trXQ1pumE",
@@ -52,7 +52,7 @@ let movie3 = new Movie (
     "HBO"
 );
 movie3.createFilm();
-let movie4 = new Movie (
+let movie4 = new Movie(
     "./img/movies/m4.jpg",
     "./img/movies/b4.png",
     "https://www.youtube.com/embed/Zi88i4CpHe4",
@@ -70,7 +70,7 @@ let movie4 = new Movie (
     "Warner Bros. Pictures, New Line Cinema"
 );
 movie4.createFilm();
-let movie8 = new Movie (
+let movie8 = new Movie(
     "./img/movies/m8.jpg",
     "./img/movies/b8.png",
     "https://www.youtube.com/embed/XaFMv9MvXv4",
@@ -88,7 +88,7 @@ let movie8 = new Movie (
     "20th Century Fox, Lightstorm Entertainment"
 );
 movie8.createFilm();
-let movie6 = new Movie (
+let movie6 = new Movie(
     "./img/movies/m6.jpg",
     "./img/movies/b6.png",
     "https://www.youtube.com/embed/Nxo-hmLKLKk",
@@ -106,7 +106,7 @@ let movie6 = new Movie (
     "Sony Pictures Home Entertainment"
 );
 movie6.createFilm();
-let movie7 = new Movie (
+let movie7 = new Movie(
     "./img/movies/m7.jpg",
     "./img/movies/b7.png",
     "https://www.youtube.com/embed/h74AXqw4Opc",
@@ -124,7 +124,7 @@ let movie7 = new Movie (
     "Spyglass Media Group"
 );
 movie7.createFilm();
-let movie9 = new Movie (
+let movie9 = new Movie(
     "./img/movies/m9.jpg",
     "./img/movies/b9.png",
     "https://www.youtube.com/embed/T_YDDN66Q1I",
@@ -142,7 +142,7 @@ let movie9 = new Movie (
     "Topic Studios"
 );
 movie9.createFilm();
-let movie10 = new Movie (
+let movie10 = new Movie(
     "./img/movies/m10.jpg",
     "./img/movies/b10.png",
     "https://www.youtube.com/embed/qEVUtrk8_B4",
@@ -160,7 +160,7 @@ let movie10 = new Movie (
     "Lionsgate"
 );
 movie10.createFilm();
-let movie11 = new Movie (
+let movie11 = new Movie(
     "./img/movies/m11.jpg",
     "./img/movies/b11.png",
     "https://www.youtube.com/embed/JpoabtbEJOI",
@@ -178,7 +178,7 @@ let movie11 = new Movie (
     "Universal Pictures"
 );
 movie11.createFilm();
-let movie12 = new Movie (
+let movie12 = new Movie(
     "./img/movies/m12.jpg",
     "./img/movies/b12.png",
     "https://www.youtube.com/embed/GXaMT5pX12w",
@@ -196,7 +196,7 @@ let movie12 = new Movie (
     "Animagrad"
 );
 movie12.createFilm();
-let movie13 = new Movie (
+let movie13 = new Movie(
     "./img/movies/m13.jpg",
     "./img/movies/b13.png",
     "https://www.youtube.com/embed/SJPJPUpNvDw",
@@ -214,7 +214,7 @@ let movie13 = new Movie (
     "DC Entertainment, Warner Bros. Television"
 );
 movie13.createFilm();
-let movie14 = new Movie (
+let movie14 = new Movie(
     "./img/movies/m14.jpg",
     "./img/movies/b14.png",
     "https://www.youtube.com/embed/BYxnJLmyfTA",
@@ -232,7 +232,7 @@ let movie14 = new Movie (
     "Film.UA Group"
 );
 movie14.createFilm();
-let movie15 = new Movie (
+let movie15 = new Movie(
     "./img/movies/m15.jpg",
     "./img/movies/b15.png",
     "https://www.youtube.com/embed/b2gCijyAbJk",
@@ -250,7 +250,7 @@ let movie15 = new Movie (
     "Showtime"
 );
 movie15.createFilm();
-let movie16 = new Movie (
+let movie16 = new Movie(
     "./img/movies/m16.jpg",
     "./img/movies/b16.png",
     "https://www.youtube.com/embed/6sxCFZ8_d84",
@@ -268,7 +268,7 @@ let movie16 = new Movie (
     "Searchlight Pictures"
 );
 movie16.createFilm();
-let movie17 = new Movie (
+let movie17 = new Movie(
     "./img/movies/m17.jpeg",
     "./img/movies/b17.png",
     "https://www.youtube.com/embed/J_NqUYwngr0",
@@ -286,7 +286,7 @@ let movie17 = new Movie (
     "Netflix"
 );
 movie17.createFilm();
-let movie18 = new Movie (
+let movie18 = new Movie(
     "./img/movies/m18.jpg",
     "./img/movies/b18.png",
     "https://www.youtube.com/embed/FVb6EdKDBfU",
@@ -304,7 +304,7 @@ let movie18 = new Movie (
     "Netflix"
 );
 movie18.createFilm();
-let movie19 = new Movie (
+let movie19 = new Movie(
     "./img/movies/m19.jpg",
     "./img/movies/b19.png",
     "https://www.youtube.com/embed/8g18jFHCLXk",
@@ -322,7 +322,7 @@ let movie19 = new Movie (
     "Warner Bros. Pictures"
 );
 movie19.createFilm();
-let movie20 = new Movie (
+let movie20 = new Movie(
     "./img/movies/m20.jpg",
     "./img/movies/b20.png",
     "https://www.youtube.com/embed/TcPk2p0Zaw4",
@@ -340,7 +340,7 @@ let movie20 = new Movie (
     "Searchlight Pictures"
 );
 movie20.createFilm();
-let movie21 = new Movie (
+let movie21 = new Movie(
     "./img/movies/m21.jpg",
     "./img/movies/b21.png",
     "https://www.youtube.com/embed/hNnNlrqXCoU",
@@ -358,7 +358,7 @@ let movie21 = new Movie (
     "A24"
 );
 movie21.createFilm();
-let movie22 = new Movie (
+let movie22 = new Movie(
     "./img/movies/m22.jpg",
     "./img/movies/b22.png",
     "https://www.youtube.com/embed/xNq9YOfL0Zs",
@@ -376,7 +376,7 @@ let movie22 = new Movie (
     "Netflix"
 );
 movie22.createFilm();
-let movie23 = new Movie (
+let movie23 = new Movie(
     "./img/movies/m23.jpg",
     "./img/movies/b23.png",
     "https://www.youtube.com/embed/LRDPo0CHrko",
@@ -394,7 +394,7 @@ let movie23 = new Movie (
     "Netflix"
 );
 movie23.createFilm();
-let movie24 = new Movie (
+let movie24 = new Movie(
     "./img/movies/m24.jpg",
     "./img/movies/b24.png",
     "https://www.youtube.com/embed/7mzushAOM88",
@@ -412,7 +412,7 @@ let movie24 = new Movie (
     "A24"
 );
 movie24.createFilm();
-let movie25 = new Movie (
+let movie25 = new Movie(
     "./img/movies/m25.jpg",
     "./img/movies/b25.png",
     "https://www.youtube.com/embed/5xH0HfJHsaY",
@@ -430,7 +430,7 @@ let movie25 = new Movie (
     "CJ Entertainment"
 );
 movie25.createFilm();
-let movie26 = new Movie (
+let movie26 = new Movie(
     "./img/movies/m26.png",
     "./img/movies/b26.png",
     "https://www.youtube.com/embed/gZjQROMAh_s",
@@ -448,7 +448,7 @@ let movie26 = new Movie (
     "Universal Pictures"
 );
 movie26.createFilm();
-let movie27 = new Movie (
+let movie27 = new Movie(
     "./img/movies/m27.jpg",
     "./img/movies/b27.png",
     "https://www.youtube.com/embed/zAGVQLHvwOY",
@@ -466,7 +466,7 @@ let movie27 = new Movie (
     "Warner Bros."
 );
 movie27.createFilm();
-let movie28 = new Movie (
+let movie28 = new Movie(
     "./img/movies/m28.jpg",
     "./img/movies/b28.png",
     "https://www.youtube.com/embed/WHXxVmeGQUc",
@@ -484,7 +484,7 @@ let movie28 = new Movie (
     "Netflix"
 );
 movie28.createFilm();
-let movie29 = new Movie (
+let movie29 = new Movie(
     "./img/movies/m29.jpg",
     "./img/movies/b29.png",
     "https://www.youtube.com/embed/tL4McUzXfFI",

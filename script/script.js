@@ -1,14 +1,14 @@
 let newMovies = document.querySelector("#newMovies");
 let popularMovies = document.querySelector("#popularMovies");
 
-var data = JSON.parse (localStorage.getItem ('google'));
+var data = JSON.parse(localStorage.getItem('google'));
 console.log(typeof data);
 console.log(data);
 
 let mobileMenu = document.querySelector(".mobileMenu")
 let mobileMenuDiv = document.querySelector(".mobileMenuDiv")
 
-mobileMenu.addEventListener('click', function() {
+mobileMenu.addEventListener('click', function () {
     mobileMenuDiv.classList.toggle("hidden");
 });
 
@@ -30,7 +30,7 @@ class Movie {
         this.IMDb = IMDb;
         this.studio = studio;
         this.popular = popular;
-        this.li = null; 
+        this.li = null;
     }
 
     createFilm() {
@@ -41,7 +41,7 @@ class Movie {
             title: this.title,
             name: this.name,
             uaName: this.uaName,
-            description: this.description, 
+            description: this.description,
             uaDescription: this.uaDescription,
             country: this.country,
             uaCountry: this.uaCountry,
@@ -93,7 +93,7 @@ class Movie {
 
         let mobileMovieYear = document.createElement("p");
         mobileMovieYear.innerText = this.year;
-        
+
         this.li.append(img);
         this.li.append(hiddenDiv);
         this.li.append(mobileMovieInfo);
@@ -104,22 +104,22 @@ class Movie {
         mobileMovieInfo.append(mobileMovieCountry);
         mobileMovieInfo.append(mobileMovieGenre);
         mobileMovieInfo.append(mobileMovieYear);
-        
+
         let popularFilmCards = document.querySelectorAll(".popularFilmCard");
         let newFilmCards = document.querySelectorAll(".newFilmCard");
-        
+
         if (popularFilmCards.length < 7) {
             popularMovies.append(this.li);
         }
         if (newFilmCards.length < 7) {
             newMovies.append(this.li);
         }
-        button.addEventListener('click', function() {
+        button.addEventListener('click', function () {
             localStorage.clear('data');
             localStorage.setItem('data', JSON.stringify(object));
             window.location.href = './pages/movie/index.html';
         });
-        this.li.addEventListener('click', function() {
+        this.li.addEventListener('click', function () {
             localStorage.clear('data');
             localStorage.setItem('data', JSON.stringify(object));
             window.location.href = './pages/movie/index.html';

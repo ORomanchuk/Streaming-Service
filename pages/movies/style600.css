@@ -17,7 +17,7 @@
         height: 70px;
         justify-content: space-between;
     }
-	
+
     .headerMenu {
         visibility: hidden;
         width: 0;
@@ -91,7 +91,7 @@
         margin-right: auto;
         margin-bottom: 20px;
     }
-    
+
     .bannerOffer button {
         display: block;
         width: 174px;
@@ -105,16 +105,16 @@
         margin-right: auto;
         margin-top: 0;
     }
-    
+
     .itcss__btn::before {
         width: 29px;
         height: 29px;
-    }    
-    
+    }
+
     .itcss__indicators {
         position: unset;
     }
-    
+
     .itcss__indicator {
         width: 25.65px;
         height: 2.23px;
@@ -126,7 +126,7 @@
         top: 265px;
         width: 250px;
     }
-    
+
     .bannerBtns button {
         width: 60px;
     }
@@ -147,7 +147,7 @@
         padding-left: calc(0.052vw * 70);
         padding-right: calc(0.052vw * 70);
     }
-    
+
     .channels {
         position: unset;
         height: 154px;
@@ -161,7 +161,7 @@
     .channels::-webkit-scrollbar {
         display: none;
     }
-    
+
     .channelCard {
         z-index: 1;
         width: 106.82px;
@@ -169,29 +169,29 @@
         border-radius: 18px;
         margin-right: 6px;
     }
-    
+
     .channelCard:hover {
         z-index: 1;
     }
-    
+
     .channelBg {
         width: 106.82px;
         height: 106.82px;
         border-radius: 18px;
         transition: none;
     }
-    
-    .channelCard:hover .channelBg{
+
+    .channelCard:hover .channelBg {
         transform: none;
         transition: none;
     }
-    
+
     .channelDescription {
         visibility: hidden;
         height: 0;
         width: 0;
     }
-    
+
     .channelCard:hover .channelDescription {
         visibility: hidden;
     }
@@ -200,7 +200,7 @@
         position: relative;
         bottom: 50px;
     }
-    
+
     .channelLogo {
         visibility: visible;
         width: 40.95px;
@@ -216,18 +216,18 @@
         border-radius: 18px 0px 0px 18px;
         transition: 0s 0.5s;
     }
-    
+
     .channelCard:hover .channelLogo {
         transition: 0s 0s;
         visibility: visible;
     }
-    
+
     .channelLogo img {
         width: 35px;
         margin: auto;
         margin-left: auto;
     }
-    
+
     .channelNumber {
         visibility: hidden;
         width: 0;
@@ -237,11 +237,11 @@
     /* NEW CHANNELS */
     /* NEW CHANNELS */
     /* NEW CHANNELS */
-    
+
     .sectionName {
         align-items: start;
     }
-    
+
     .newChannels {
         position: unset;
         height: 184px;
@@ -254,7 +254,7 @@
     .newChannels::-webkit-scrollbar {
         display: none;
     }
-    
+
     .allLink {
         z-index: 2;
         cursor: pointer;
@@ -268,22 +268,22 @@
         margin-right: 16px;
         transition: 0.5s;
     }
-    
+
     .allLink:hover {
         cursor: pointer;
         margin-right: 32px;
         transition: 0.5s;
     }
-    
+
     .linkArrow {
         width: 10px;
         height: 17px;
     }
-    
+
     /* NEW MOVIES */
     /* NEW MOVIES */
     /* NEW MOVIES */
-    
+
     .newMovies {
         position: unset;
         width: 100%;
@@ -302,7 +302,7 @@
     .films::-webkit-scrollbar {
         display: none;
     }
-    
+
     .filmCard {
         z-index: 1;
         width: 111px;
@@ -314,6 +314,7 @@
     .mobileFilmDescr {
         width: 100%;
     }
+
     .mobileFilmDescr p {
         font-style: normal;
         font-weight: 400;
@@ -336,25 +337,25 @@
         white-space: nowrap;
         text-overflow: ellipsis;
     }
-    
+
     .filmCard:hover {
         z-index: 1;
         border-radius: 18px;
     }
-    
+
     .filmBg {
         width: 111px;
         height: 155px;
         border-radius: 18px;
         transition: 0s;
     }
-    
-    .filmCard:hover .filmBg{
+
+    .filmCard:hover .filmBg {
         border-radius: 18px;
         transform: none;
         transition: 0s;
     }
-    
+
     .hiddenDiv {
         width: 0;
         height: 0;
@@ -368,21 +369,21 @@
         padding-top: calc(0.052vw * 10);
         transition: 0s 0s;
     }
-    
+
     .filmCard:hover .hiddenDiv {
         visibility: hidden;
         bottom: 4%;
         transform: scale(1.5);
         transition: 0.5s 0s;
     }
-    
+
     .movieName {
         width: calc(0.052vw * 230);
         color: #FFFFFF;
         text-align: center;
         margin-bottom: calc(0.052vw * 10);
     }
-    
+
     .filmCard button {
         width: 100%;
         height: calc(0.052vw * 48);
@@ -396,7 +397,7 @@
         color: #FFFFFF;
         cursor: pointer;
     }
-    
+
     .popularMovies {
         width: 100%;
         height: calc(0.052vw * 400);
@@ -405,11 +406,11 @@
         padding-left: calc(0.052vw * 70);
         padding-right: calc(0.052vw * 70);
     }
-    
+
     /* FOOTER */
     /* FOOTER */
     /* FOOTER */
-    
+
     footer {
         flex-direction: column;
         width: 100%;
@@ -419,11 +420,11 @@
         padding-left: calc(0.052vw * 70);
         padding-right: calc(0.052vw * 70);
     }
-    
+
     .mainFooter {
         width: 100%;
     }
-    
+
     .footerLogo {
         height: 91px;
         width: 170px;
@@ -431,12 +432,12 @@
         margin-left: auto;
         margin-bottom: 43px;
     }
-    
+
     .footerLogo img {
         height: 91px;
         width: 170px;
     }
-    
+
     .footerDescr {
         width: 280px;
         font-style: normal;
@@ -449,7 +450,7 @@
         margin-left: auto;
         margin-right: auto;
     }
-    
+
     .markets {
         width: 320px;
         justify-content: space-between;
@@ -457,12 +458,12 @@
         margin-left: auto;
         margin-right: auto;
     }
-    
+
     .markets img {
         width: 148px;
         height: 43px;
     }
-    
+
     .social {
         width: 320px;
         justify-content: space-between;
@@ -470,19 +471,19 @@
         margin-left: auto;
         margin-right: auto;
     }
-    
+
     .social svg {
         width: 40px;
         height: 40px;
     }
-    
+
     .privacy {
         width: 100%;
         justify-content: space-between;
         margin-left: auto;
         margin-right: auto;
     }
-    
+
     .privacy a {
         font-style: normal;
         font-weight: 500;
@@ -491,7 +492,7 @@
         color: #616161;
         margin-bottom: 16px;
     }
-    
+
     .copyrigth {
         width: 230px;
         font-style: normal;
@@ -502,7 +503,7 @@
         margin-bottom: 81px;
         margin-right: auto;
     }
-    
+
     .footerNavigation {
         position: absolute;
         visibility: hidden;
@@ -510,7 +511,7 @@
         width: 0;
     }
 
-    
+
 
     .mobileMenuDiv {
         z-index: 50;
@@ -523,17 +524,17 @@
         padding: 20px 30px;
     }
 
-    
+
     .mobileMenuDiv .userMenu {
         flex-direction: column;
     }
 
-    
+
     .mobileMenuDiv .mobileNav {
         flex-direction: column;
     }
 
-    
+
     .mobileMenuDiv button,
     .mobileMenuDiv p {
         font-style: normal;
@@ -553,7 +554,7 @@
         background: none;
     }
 
-    
+
     .mobileMenuDiv .searchBtn input {
         width: 100%;
         height: 48px;
@@ -576,7 +577,7 @@
         color: #4E4C5E;
     }
 
-    
+
     .mobileMenuDiv .searchBtn {
         width: 100%;
         height: 48px;
@@ -585,12 +586,12 @@
         margin-bottom: 24px;
     }
 
-    
+
     .mobileMenuDiv .userMenu .signInBtn {
         margin-bottom: 37px;
     }
 
-    
+
     .mobileMenuDiv .userMenu .signInBtn img {
         width: 24px;
         height: 24px;

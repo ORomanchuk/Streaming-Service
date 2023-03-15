@@ -1,11 +1,11 @@
-var data = JSON.parse (localStorage.getItem ('data'));
+var data = JSON.parse(localStorage.getItem('data'));
 console.log(typeof data);
 console.log(data);
 
 let mobileMenu = document.querySelector(".mobileMenu")
 let mobileMenuDiv = document.querySelector(".mobileMenuDiv")
 
-mobileMenu.addEventListener('click', function() {
+mobileMenu.addEventListener('click', function () {
     mobileMenuDiv.classList.toggle("hidden");
 });
 
@@ -27,5 +27,5 @@ year.textContent = data.year;
 IMDb.textContent = data.IMDb;
 studio.textContent = data.studio;
 descriptionText.textContent = data.description;
-iframe.src=data.link;
-iframe.title=data.title;
+iframe.src = data.link;
+iframe.title = data.title;

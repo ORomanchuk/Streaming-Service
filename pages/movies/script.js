@@ -3,7 +3,7 @@ let movies = document.querySelector(".listOfMovies");
 let mobileMenu = document.querySelector(".mobileMenu")
 let mobileMenuDiv = document.querySelector(".mobileMenuDiv")
 
-mobileMenu.addEventListener('click', function() {
+mobileMenu.addEventListener('click', function () {
     mobileMenuDiv.classList.toggle("hidden");
 });
 
@@ -26,9 +26,9 @@ class Movie {
         this.IMDb = IMDb;
         this.studio = studio;
         this.popular = popular;
-        this.li = null; 
+        this.li = null;
     }
-    
+
     createFilm() {
         var object = {
             photo: this.photo,
@@ -48,27 +48,27 @@ class Movie {
             studio: this.studio,
             popular: this.popular
         }
-        
+
         this.li = document.createElement("li");
         this.li.classList.add("filmCard");
-        
+
         let img = document.createElement("img");
         img.classList.add("filmBg");
         img.src = this.photo;
-        
+
         let hiddenDiv = document.createElement("div");
         hiddenDiv.classList.add("hiddenDiv");
-        
+
         let movieName = document.createElement("div");
         movieName.classList.add("movieName");
         movieName.innerText = this.name;
-        
+
         let a = document.createElement("a");
         a.href = "#";
 
         let button = document.createElement("button");
         button.innerText = "Watch Now";
-        
+
         this.li.append(img);
         this.li.append(hiddenDiv);
         hiddenDiv.append(movieName);
@@ -76,13 +76,13 @@ class Movie {
         hiddenDiv.append(button);
 
         movies.append(this.li);
-    
-        button.addEventListener('click', function() {
+
+        button.addEventListener('click', function () {
             localStorage.clear('data');
             localStorage.setItem('data', JSON.stringify(object));
             window.location.href = '../movie/index.html';
         });
-        this.li.addEventListener('click', function() {
+        this.li.addEventListener('click', function () {
             localStorage.clear('data');
             localStorage.setItem('data', JSON.stringify(object));
             window.location.href = '../movie/index.html';

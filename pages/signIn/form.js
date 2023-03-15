@@ -1,6 +1,6 @@
 function onSignIn(googleUser) {
     var profile = googleUser.getBasicProfile();
-    
+
     var object = {
         id: profile.getId(),
         name: profile.getName(),

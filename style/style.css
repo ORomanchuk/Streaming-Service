@@ -51,9 +51,10 @@ body {
     min-height: calc(100vh - 960);
 }
 
-header, .headerClone {
+header,
+.headerClone {
     height: calc(0.052vw * 100);
-    
+
 }
 
 footer {
@@ -123,13 +124,13 @@ nav {
     font-size: calc(0.052vw * 24);
     line-height: calc(0.052vw * 24);
     color: #FFFFFF;
-    padding-left:  calc(0.052vw * 70);
+    padding-left: calc(0.052vw * 70);
 }
 
 .headerSearch::-webkit-search-cancel-button {
-	display: none;
-	width: 0;
-	height: 0;
+    display: none;
+    width: 0;
+    height: 0;
 }
 
 .headerSearch:active {
@@ -181,7 +182,7 @@ nav {
     background-repeat: no-repeat;
     cursor: pointer;
     margin-right: calc(0.052vw * 70);
-} 
+}
 
 .signInBtn {
     align-items: center;
@@ -269,7 +270,7 @@ nav {
     left: calc(0.052vw * 60);
 }
 
-.bannerOffer p{
+.bannerOffer p {
     width: calc(0.052vw * 523);
     height: calc(0.052vw * 170);
     font-style: normal;
@@ -279,7 +280,7 @@ nav {
     color: #FFFFFF;
 }
 
-.bannerOffer button{
+.bannerOffer button {
     cursor: pointer;
     width: calc(0.052vw * 238);
     height: calc(0.052vw * 48);
@@ -334,7 +335,7 @@ nav {
     transition: 0.5s;
 }
 
-.channelCard:hover .channelBg{
+.channelCard:hover .channelBg {
     transform: scale(1.5);
     transition: 0.5s;
 }
@@ -535,7 +536,7 @@ nav {
     transition: 0.5s;
 }
 
-.filmCard:hover .filmBg{
+.filmCard:hover .filmBg {
     border-radius: calc(0.052vw * 18);
     transform: scale(1.5);
     transition: 0.5s;
@@ -629,7 +630,7 @@ footer {
     font-size: calc(0.052vw * 16);
     line-height: 140%;
     color: #8D8D8D;
-    margin-bottom:calc(0.052vw * 32);
+    margin-bottom: calc(0.052vw * 32);
 }
 
 .markets {
@@ -656,7 +657,7 @@ footer {
 
 .social a:hover svg circle {
     stroke: #55ACE3;
-    
+
 }
 
 .social a:hover svg path {
