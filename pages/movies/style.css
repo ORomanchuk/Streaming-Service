@@ -1,0 +1,20 @@
+.userWindow {
+    width: 100%;
+    height: calc(0.052vw * 1839);
+    background-image: url(../../img/pageBg.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.listOfMovies {
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding-left: calc(0.052vw * 70);
+    padding-right: calc(0.052vw * 70);
+    padding-top: calc(0.052vw * 70);
+}
+
+.filmCard {
+    margin-bottom: calc(0.052vw * 50);
+}

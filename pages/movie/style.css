@@ -1,0 +1,86 @@
+.userWindow {
+    width: 100%;
+    height: calc(0.052vw * 1839);
+    z-index: 5;
+    background-image: url(../../img/pageBg.png);
+    opacity: 0.5;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.filmBanner {
+    position: absolute; 
+    width: 100%;
+    height: calc(0.052vw * 809);
+
+}
+
+.filmBanner div {
+    z-index: 1;
+    width: calc(0.052vw * 1438);
+    height: calc(0.052vw * 809);
+    margin-left: auto;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.film {
+    position: absolute;
+    top: calc(0.052vw * 100);
+}
+
+.filmDescr {
+    width: calc(0.052vw * 1209);
+    height: calc(0.052vw * 809);
+    padding-top: calc(0.052vw * 70);
+    padding-left: calc(0.052vw * 70);
+    padding-right: calc(0.052vw * 70);
+}
+
+.filmName {
+    font-style: normal;
+    font-weight: 300;
+    font-size: calc(0.052vw * 96);
+    line-height: calc(0.052vw * 110);
+    color: #FFFFFF;
+    margin-top: 20%;
+    margin-bottom: calc(0.052vw * 20);
+}
+
+.country,
+.genre,
+.year,
+.IMDb,
+.studio {
+    font-style: normal;
+    font-weight: 500;
+    font-size: calc(0.052vw * 24);
+    line-height: calc(0.052vw * 28);
+    color: #A7A7A7;
+    margin-right: calc(0.052vw * 20);
+}
+
+.descriptionText {
+    z-index: 10;
+    width: calc(0.052vw * 907);
+    height: calc(0.052vw * 170);
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 300;
+    font-size: calc(0.052vw * 32);
+    line-height: calc(0.052vw * 37);
+    color: #FFFFFF;
+    margin-top: calc(0.052vw * 20);;
+}
+
+.player {
+    padding-left: calc(0.052vw * 70);
+    padding-right: calc(0.052vw * 70);
+}
+
+iframe {
+    width: calc(0.052vw * 1706);
+    height: calc(0.052vw * 960);
+}

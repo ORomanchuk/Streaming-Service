@@ -1,0 +1,253 @@
+@media (max-width: 600px) {
+
+    .mobile {
+        visibility: visible;
+    }
+
+    body {
+        width: 100%;
+    }
+
+    .userWindow {
+        height: 700px;
+    }
+
+    header {
+        width: 100%;
+        height: 70px;
+        justify-content: space-between;
+    }
+	
+    .headerMenu {
+        visibility: hidden;
+        width: 0;
+        height: 0;
+    }
+
+    .mobileMenu {
+        visibility: visible;
+        width: 40px;
+        height: 51px;
+        cursor: pointer;
+        margin-right: 10px;
+    }
+
+    .mobileMenu img {
+        width: 39px;
+        height: 30px;
+    }
+
+    .mobileMenu p {
+        font-style: normal;
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 17px;
+        color: #FFFFFF;
+    }
+
+    .logo {
+        width: 96px;
+        height: 51px;
+    }
+
+    .headerClone {
+        height: 70px;
+    }
+
+    h2 {
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 18px;
+        color: #FFFFFF;
+        margin-bottom: 10px;
+    }
+    
+    .filmBanner {
+        position: absolute; 
+        width: 100%;
+        height: 250px;
+    
+    }
+    
+    .filmBanner div {
+        z-index: 1;
+        width: 100%;
+        height: 250px;
+        margin-left: auto;
+        background-position: right;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    
+    .film {
+        position: absolute;
+        top: 280px;
+    }
+    
+    .filmDescr {
+        width: 100%;
+        height: unset;
+        padding-top: calc(0.052vw * 70);
+        padding-left: calc(0.052vw * 70);
+        padding-right: calc(0.052vw * 70);
+    }
+    
+    .filmName {
+        width: 350px;
+        text-align: center;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 41px;
+        color: #FFFFFF;
+        margin-bottom: 20px;
+        margin-top: 40px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    .country,
+    .genre,
+    .year,
+    .IMDb,
+    .studio {
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 16px;
+        color: #A7A7A7;
+        margin-right: calc(0.052vw * 20);
+    }
+
+    .description {
+        width: max-content;
+        display: flex;
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+    .description p {
+        margin-right: 5px;
+        margin-left: 5px;
+    }
+    
+    
+    .descriptionText {
+        width: 300px;
+        font-style: normal;
+        font-weight: 300;
+        font-size: 13px;
+        line-height: 15px;
+        text-align: center;
+        color: #FFFFFF;
+        margin-right: auto;
+        margin-left: auto;
+        margin-top: 20px;
+        margin-bottom: 30px;
+    }
+
+    /* FOOTER */
+    /* FOOTER */
+    /* FOOTER */
+    
+    footer {
+        flex-direction: column;
+        width: 100%;
+        background-color: #191919;
+        justify-content: space-between;
+        padding-top: 70px;
+        padding-left: calc(0.052vw * 70);
+        padding-right: calc(0.052vw * 70);
+    }
+    
+    .mainFooter {
+        width: 100%;
+    }
+    
+    .footerLogo {
+        height: 91px;
+        width: 170px;
+        margin-right: auto;
+        margin-left: auto;
+        margin-bottom: 43px;
+    }
+    
+    .footerLogo img {
+        height: 91px;
+        width: 170px;
+    }
+    
+    .footerDescr {
+        width: 280px;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 140%;
+        text-align: center;
+        color: #8D8D8D;
+        margin-bottom: 30px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    .markets {
+        width: 320px;
+        justify-content: space-between;
+        margin-bottom: 30px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    .markets img {
+        width: 148px;
+        height: 43px;
+    }
+    
+    .social {
+        width: 320px;
+        justify-content: space-between;
+        margin-bottom: 30px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    .social svg {
+        width: 40px;
+        height: 40px;
+    }
+    
+    .privacy {
+        width: 100%;
+        justify-content: space-between;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    .privacy a {
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 140%;
+        color: #616161;
+        margin-bottom: 16px;
+    }
+    
+    .copyrigth {
+        width: 230px;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 140%;
+        color: #616161;
+        margin-bottom: 81px;
+        margin-right: auto;
+    }
+    
+    .footerNavigation {
+        position: absolute;
+        visibility: hidden;
+        height: 0;
+        width: 0;
+    }
+}

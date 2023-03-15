@@ -1,0 +1,159 @@
+* {
+    font-family: 'Ubuntu', sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: underline dotted;
+    text-decoration-color: inherit;
+    color: inherit;
+}
+
+.flexable {
+    display: flex;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    background-image: url(../../img/pageBg.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+section {
+    width: 557px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 2%;
+}
+
+.logo {
+    display: block;
+    height: 51px;
+    width: 96px;
+    margin-bottom: 53px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+form {
+    flex-direction: column;
+    width: 577px;
+    min-height: 440px;
+    background-color: rgba(0, 0, 0, 0.6);
+    border-radius: 23px;
+    padding: 110px 75px 66px 75px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+input {
+    width: 100%;
+    height: 60px;
+    background-color: rgba(49, 49, 49, 0.9);
+    border-radius: 8px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 28px;
+    color: #FFFFFF;
+    margin-bottom: 14px;
+    padding-left: 20px;
+}
+
+input::placeholder {
+    font-family: 'Rubik', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #757575;
+}
+
+input:value {
+    
+} 
+
+.inputBtn {
+    width: 142px;
+    height: 48px;
+    background: #E13C52;
+    border-radius: 60px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 28px;
+    color: #FFFFFF;
+    margin-bottom: 45px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0 30px;
+}
+
+p {
+    text-align: center;
+    font-family: 'Rubik', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #838199;
+}
+
+.back {
+    text-align: center;
+}
+
+.back a {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 28px;
+    color: #FFFFFF;
+}
+
+h2 {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 28px;
+    text-align: center;
+    color: #FFFFFF;
+    margin-bottom: 21px;
+}
+
+input[type="checkbox"] {
+    width: 19px;
+    height: 19px;
+    background-color: #303030;
+    border: 2px solid #6D6D6D;
+}
+
+label {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 18px;
+    text-align: center;
+    color: #8D8D8D;
+}
+
+.label a {
+    text-decoration: none;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 18px;
+    text-align: center;
+    color: #8D8D8D;
+}
+
+.back {
+    position: absolute;
+    margin-left: 166px;
+    bottom: 30px;
+}
