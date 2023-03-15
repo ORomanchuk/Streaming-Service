@@ -1,5 +1,15 @@
 function onSignIn(googleUser) {
     var profile = googleUser.getBasicProfile();
+    
+    var object = {
+        id: profile.getId(),
+        name: profile.getName(),
+        url: profile.getImageUrl(),
+        email: profile.getEmail(),
+    }
+
+    localStorage.setItem('google', JSON.stringify(object));
+    window.location.href = '../../index.html';
     console.log('ID: ' + profile.getId()); // Do not send to your backend! Use an ID token instead.
     console.log('Name: ' + profile.getName());
     console.log('Image URL: ' + profile.getImageUrl());
@@ -21,3 +31,5 @@ confirmPassword.addEventListener("change", function () {
         shoppingCard.style.zIndex = "0";
     }
 })
+
+
